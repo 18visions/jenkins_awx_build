@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Environment variables for Docker Hub
-        DOCKERHUB_USERNAME = credentials('18visions')
+        DOCKERHUB_USERNAME = '18visions'
         IMAGE_TAG = 'latest' // You can dynamically define this based on build details
     }
 
